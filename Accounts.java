@@ -11,10 +11,9 @@ class Account{
         System.out.println("The Balance is:"+" "+cos.balance);
     }
     public void withdraw(double am,HashMap<Integer,Double> w){
-        if(cos.balance>am && atm.atm_bal>am){
+        if(cos.balance>=am && atm.atm_bal>=am){
             cos.balance=cos.balance-am;
             atm.atm_bal=atm.atm_bal-am;
-            cos.ww=am;
             w.put(cos.acc_no,am);
             System.out.println("Ammount Withdrawed");
             updateCustomerBalance(cos);

@@ -12,9 +12,9 @@ public class ATM {
     public static void main(String[] args) {
         
         
-        li.add(new Coustomer(1234,121,123456789,1000,0));
-        li.add(new Coustomer(1235,120,12345689,1100,0));
-        li.add(new Coustomer(1231,125,1235689,110011,0));
+        li.add(new Coustomer(1234,121,123456789,1000));
+        li.add(new Coustomer(1235,120,12345689,1100));
+        li.add(new Coustomer(1231,125,1235689,110011));
        int cas=0;
         while(cas!=3){
             System.out.println("\nATM:");
